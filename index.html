@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfiles</title>
+    <link rel="stylesheet" href="styles/styles.css"
+</head>
+<body>
+    <h1>Generador de perfiles</h1>
+   
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Nombre del perfil</h2>
+            </div>
+            <div class="card-body">
+                <label class="label">Nombre</label>
+                <input id="nombre" class="input" type="text" placeholder="Ingrese el nombre del perfil" required>
+                <label class="label">Apellido</label>
+                <input id="apellido" class="input" type="text" placeholder="Ingrese el apellido del perfil" required>
+                <label class="label">Profesion</label>
+                <select class="select" required>
+                    <option value="Desarrollador">Desarrollador</option>
+                    <option value="Diseñador">Diseñador</option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="other">Otro</option>
+                </select>
+                <label class="label">Selecciona  un color</label>
+                <input id="color" class="color" type="color" required>
+                <label class="label">Selecciona  una imagen: (Opcional)</label>
+                <input id="img" type="file" class="file-input" accept="image/*">
+                <button id="crear">Crear</button>
+            </div>
+        </div>
+        <div class="card2">
+            <p id="nombre2"class="imprimir">Nombre: </p> 
+            <p id="apellido2" class="imprimir">Apellido: </p> 
+            <p id="profesion2" class="imprimir">Profesion: </p> 
+            <img id="img-imprimir" src=""> 
+        </div>
+
+        <a id="volver"href="./cards.html">Ver tarjetas generadas</a>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

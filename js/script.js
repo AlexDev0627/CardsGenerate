@@ -60,5 +60,5 @@ crear.addEventListener("click", () => {
     console.log("Guardado en LocalStorage:", cardsCreadas);
 });
 
-console.log(":(");
+console.log(":)");
 

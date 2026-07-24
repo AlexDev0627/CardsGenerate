@@ -1,5 +1,5 @@
 
-console.log("JavaScript cargado...")
+console.log("JavaScript loaded...")
 //inputs
 const nombre = document.getElementById("nombre");
 const apellido = document.getElementById("apellido");
